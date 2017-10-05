@@ -1,7 +1,8 @@
-package kotolinmusic.taku24.com.kotlinmusic
+package kotolinmusic.taku24.com.kotlinmusic.Controlelr.Activity
 
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
+import kotolinmusic.taku24.com.kotlinmusic.R
 
 class MainActivity : AppCompatActivity() {
 

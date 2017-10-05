@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">KotlinMusic</string>
+
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+
+    <string name="permission_title">パーミッションを許可してください</string>
+    <string name="permission_message">許可がない場合、アプリの起動はできません</string>
 </resources>
