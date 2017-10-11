@@ -5,7 +5,7 @@ import android.support.v4.app.Fragment
 import android.support.v4.app.FragmentManager
 import android.support.v4.app.FragmentPagerAdapter
 import kotolinmusic.taku24.com.kotlinmusic.Controlelr.Fragment.AlbumListFragment
-import kotolinmusic.taku24.com.kotlinmusic.Controlelr.Fragment.AritistListFragment
+import kotolinmusic.taku24.com.kotlinmusic.Controlelr.Fragment.ArtistsListFragment
 import kotolinmusic.taku24.com.kotlinmusic.Controlelr.Fragment.MusicListFragment
 import kotolinmusic.taku24.com.kotlinmusic.R
 
@@ -21,7 +21,7 @@ class ViewPagerAdapter(fm:FragmentManager, context: Context) : FragmentPagerAdap
     init {
         mContext = context
         mPageList.add(AlbumListFragment())
-        mPageList.add(AritistListFragment())
+        mPageList.add(ArtistsListFragment())
         mPageList.add(MusicListFragment())
     }
 
@@ -30,7 +30,7 @@ class ViewPagerAdapter(fm:FragmentManager, context: Context) : FragmentPagerAdap
     }
 
     override fun getItem(position: Int): Fragment {
-        return mPageList[position]
+        return mPageList.get(position)
     }
 
     override fun getPageTitle(position: Int): CharSequence {
